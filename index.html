@@ -3,26 +3,32 @@
 <head>
 <meta charset="utf-8">
 <title>Kim_Taeheon_a3</title>
-
 <!--Font-->  
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap" rel="stylesheet"> 
 
-  
-<body>
 <style>
+  body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+  }
   
+  .content-area {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.1);
+  }
   
   h2 {
-  color: black;
+    color: black;
   }
   
-  body {
-  color: white; 
-  }
-  #section0, #section1, #section2, #section3, #section4 {
-  height: 700px;  
+  #section0, #section1, #section2, #section3 {
+    height: 700px;
+    padding: 20px 0;
   }
   
   #section0 {
@@ -34,39 +40,44 @@
   #section2 {
     background-color: #bbb5a7;
   }
-    #section3 {
+  #section3 {
     background-color: #8b2e25;
   }
-    #section4 {
-    background-color: #787254;
-  }
-  
-  
 </style>
-  </body>
-  </head>
-  <body>
-<a href="#section0">Home</a>
-<a href="#section1">About</a>
-<a href="#section2">Club</a>
-<a href="#section3">Contacts</a> 
+</head>
+<body>
 
-    
-<h2>One-page scroll site template</h2>
-    
 <div id="section0">
+  <div class="content-area">
+    <a href="#section0">Home</a>
+    <a href="#section1">About</a>
+    <a href="#section2">Club</a>
+    <a href="#section3">Contacts</a> 
+    
+    <h2>One-page scroll site template</h2>
+    <p>HOME section content (1200px centered)</p>
+  </div>
 </div>
     
 <div id="section1">
-Your amazing content goes here!
+  <div class="content-area">
+    <h3>ABOUT</h3>
+    <p>Your amazing content goes here!</p>
+  </div>
 </div>
     
 <div id="section2">
-Your amazing content goes here!
+  <div class="content-area">
+    <h3>CLUB</h3>
+    <p>Your amazing content goes here!</p>
+  </div>
 </div>
     
 <div id="section3">
-Your amazing content goes here!
+  <div class="content-area">
+    <h3>CONTACTS</h3>
+    <p>Your amazing content goes here!</p>
+  </div>
 </div>
 
 </body>
