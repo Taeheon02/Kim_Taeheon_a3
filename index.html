@@ -7,10 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap" rel="stylesheet"> 
-
 <style>
-  
-  
   body {
     color: white;
     margin: 0;
@@ -24,12 +21,20 @@
     background-color: rgba(255,255,255,0.1);
   }
   
-   a {
-    text-decoration: none;
-    color: white;
+  nav {
+    text-align: center;
+    padding: 30px 0;
   }
   
-  a:hover {
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 40px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  nav a:hover {
     text-decoration: underline;
   }
   
@@ -38,9 +43,8 @@
   }
   
   #section0, #section1, #section2, #section3 {
-    height: 1000px;
+    min-height: 1000px;
     padding: 20px 0;
-    
   }
   
   #section0 {
@@ -55,59 +59,62 @@
   #section3 {
     background-color: #8b2e25;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
 </style>
 </head>
+<body>
 
 <div id="section0">
   <div class="content-area">
-    <a href="#section0">Home</a>
-    <a href="#section1">About</a>
-    <a href="#section2">Club</a>
-    <a href="#section3">Contacts</a> 
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#club">Club</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
     
-    <h2>One-page scroll site template</h2>
+    <h2 id="home">HOME Section</h2>
     <p>HOME section content (1200px centered)</p>
   </div>
 </div>
     
 <div id="section1">
   <div class="content-area">
-    <h3>ABOUT</h3>
-    <a href="#section0">Home</a>
-    <a href="#section1">About</a>
-    <a href="#section2">Club</a>
-    <a href="#section3">Contacts</a> 
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#club">Club</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+    
+    <h2 id="about">ABOUT Section</h2>
     <p>Your amazing content goes here!</p>
   </div>
 </div>
     
 <div id="section2">
   <div class="content-area">
-    <h3>CLUB</h3>
-    <a href="#section0">Home</a>
-    <a href="#section1">About</a>
-    <a href="#section2">Club</a>
-    <a href="#section3">Contacts</a> 
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#club">Club</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+    
+    <h2 id="club">CLUB Section</h2>
     <p>Your amazing content goes here!</p>
   </div>
 </div>
     
 <div id="section3">
   <div class="content-area">
-    <h3>CONTACTS</h3>
-     <a href="#section0">Home</a>
-    <a href="#section1">About</a>
-    <a href="#section2">Club</a>
-    <a href="#section3">Contacts</a> 
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#club">Club</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+    
+    <h2 id="contacts">CONTACTS Section</h2>
     <p>Your amazing content goes here!</p>
   </div>
 </div>
