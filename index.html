@@ -88,6 +88,29 @@
     background-color: #8b2e25;
   }
   
+  /* 텍스트 오버레이: 검정색 + 흰 그림자 */
+  .text-overlay {
+    position: absolute;       
+    top: 50%;                 
+    left: 50%;                
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000000;           /* 검정색 글자 */
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.7); /* 흰 그림자 */
+  }
+  
+  .text-overlay h1 {
+    font-size: 64px;           
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .text-overlay p {
+    font-size: 24px;           
+    margin: 10px 0 0 0;
+    font-weight: bold;
+  }
+  
 </style>
 </head>
 <body>
@@ -104,7 +127,11 @@
    
       <img src="Red deer.jpg" alt="Example Image" class="relative-img">
 
-  
+  <div class="text-overlay">
+        <h1>Red Deer</h1>
+        <p>Strength through balance, victory through skill</p>
+      </div>
+ 
 
     
     
